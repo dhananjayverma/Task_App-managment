@@ -155,17 +155,20 @@ Task-Manager-App/
 
 # 🚀 **Deployment**
 ## 🌍 **Backend Deployment**
-- Deploy using **Render, Railway, or Vercel**
+- Deploy using **Render,**
+## 🚀 Deployment Link
+[🔗 Task Manager Backend](https://taskmobilebackend.onrender.com)
+
+  
 - Example: Deploy to Render:
   ```sh
   git push origin main
   ```
 
 ## 📲 **Frontend Deployment**
-- Generate **Expo Go APK for testing**:
-  ```sh
-  expo build:android -t apk
-  ```
+Share the Expo Go APK link:
+[🔗 Download Expo Go APK](https://expo.dev/accounts/harsh_shukla_02/projects/frontend/builds/6e500823-103c-4e53-b2b9-97a7bc4665ef)
+
 - Share the **Expo Go APK link**
 
 ---
