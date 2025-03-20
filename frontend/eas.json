@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "expo": {
+    "name": "Task App",
+    "slug": "task-app",
+    "platforms": ["ios", "android"],
+    "android": {
+      "buildType": "apk"
+    },
+    "env": {
+      "EXPO_PUBLIC_API_URL": "http://localhost:5000"
+    },
+    "build": {
+      "apkRelease": {
+        "distribution": "internal",
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "development": {
+        "developmentClient": true,
+        "distribution": "internal",
+        "env": {
+          "EXPO_PUBLIC_API_URL": "http://localhost:5000"
+        },
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview": {
+        "distribution": "internal",
+        "env": {
+          "EXPO_PUBLIC_API_URL": "https://taskmobilebackend.onrender.com"
+        },
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "production": {
+        "autoIncrement": true,
+        "env": {
+          "EXPO_PUBLIC_API_URL": "https://taskmobilebackend.onrender.com"
+        }
+      }
+    },
+    "submit": {
+      "production": {}
+    }
+  }
+}
