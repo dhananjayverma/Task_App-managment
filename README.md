@@ -132,7 +132,7 @@ Task-Manager-App/
    npx expo start
    ```
 3. Open the app in:
-   - 📲 [Development Build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - 📲 [Development Build](https://expo.dev/accounts/harsh_shukla_02/projects/frontend/builds/6e500823-103c-4e53-b2b9-97a7bc4665ef/)
    - 📱 [Android Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
    - 🍏 [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
    - 🌍 [Expo Go](https://expo.dev/go)
